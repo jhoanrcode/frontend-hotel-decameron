@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: "https://jhoanrcode.github.comio/frontend-hotel-decameron/",
+  base: "https://jhoanrcode.github.io/frontend-hotel-decameron/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
