@@ -1,0 +1,22 @@
+{
+  "name": "vue-hotel-decameron",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch src/posts.json --port 8080"
+  },
+  "dependencies": {
+    "axios": "^1.7.3",
+    "json-server": "^1.0.0-beta.1",
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
+  }
+}
